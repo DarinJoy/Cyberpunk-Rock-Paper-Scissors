@@ -1,46 +1,44 @@
+# 🕹️ Cyberpunk Rock, Paper, Scissors
 
+A futuristic, cyberpunk-style **Rock, Paper, Scissors** game with neon aesthetics, smooth animations, and an interactive fight sequence! ⚡💀
 
-# 🕹️ Cyberpunk Rock, Paper, Scissors  
+![Game Preview](Screenshot.png)
 
-A futuristic, cyberpunk-style **Rock, Paper, Scissors** game with neon aesthetics, smooth animations, and an interactive fight sequence! ⚡💀  
+## 🚀 Features
 
-![Game Preview](creenshot.png)  
+- **Neon cyberpunk UI** with animated holographic cityscape 🌆
+- **Interactive gameplay** with animated fight sequences 🤖⚔️
+- **Self-closing battle modal** that plays an animation and declares the winner automatically 🎬
+- **Smooth animations & effects** for an immersive experience 🎨
+- **Responsive design** for both desktop & mobile 📱💻
 
-## 🚀 Features  
+## 🎮 How to Play
 
-- **Neon cyberpunk UI** with animated holographic cityscape 🌆  
-- **Interactive gameplay** with animated fight sequences 🤖⚔️  
-- **Self-closing battle modal** that plays an animation and declares the winner automatically 🎬  
-- **Smooth animations & effects** for an immersive experience 🎨  
-- **Responsive design** for both desktop & mobile 📱💻  
+1. Choose **Rock**, **Paper**, or **Scissors** ✊✋✌️
+2. Watch the battle unfold in an animated fight scene ⚔️
+3. The game determines the winner and updates the score 🔢
+4. Play again and dominate the leaderboard! 🏆
 
-## 🎮 How to Play  
+## 🛠️ Installation
 
-1. Choose **Rock**, **Paper**, or **Scissors** ✊✋✌️  
-2. Watch the battle unfold in an animated fight scene ⚔️  
-3. The game determines the winner and updates the score 🔢  
-4. Play again and dominate the leaderboard! 🏆  
-
-## 🛠️ Installation  
-
-1. Clone the repository:  
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/cyberpunk-rps.git
    cd cyberpunk-rps
    ```
 
-2. Open `index.html` in your browser and enjoy the game! 🎮  
+2. Open `index.html` in your browser and enjoy the game! 🎮
 
-## 🖥️ Technologies Used  
+## 🖥️ Technologies Used
 
-- **HTML5** – Structure & layout  
-- **CSS3** – Cyberpunk design, animations, and responsiveness  
-- **JavaScript** – Game logic, animations, and interactions  
+- **HTML5** – Structure & layout
+- **CSS3** – Cyberpunk design, animations, and responsiveness
+- **JavaScript** – Game logic, animations, and interactions
 
-## 📜 License  
+## 📜 License
 
-This project is **open-source** and available under the [MIT License](./LICENSE).  
+This project is **open-source** and available under the [MIT License](./LICENSE).
 
 ---
 
