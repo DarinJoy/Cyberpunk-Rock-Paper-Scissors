@@ -1,6 +1,4 @@
-Here's a solid `README.md` file for your GitHub repository:  
 
----
 
 # 🕹️ Cyberpunk Rock, Paper, Scissors  
 
