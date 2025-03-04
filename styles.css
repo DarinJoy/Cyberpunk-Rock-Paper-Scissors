@@ -1,0 +1,92 @@
+body {
+  font-family: "Press Start 2P", cursive;
+  background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzF0bHUzd3dxYjduMWI3azRwMGR4NDZ1OHpheTRjaTgwcmhrMDh5aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/9zExs2Q2h1EHfE4P6G/giphy.gif")
+    no-repeat center center/cover;
+  color: #0ff;
+  text-align: center;
+}
+
+.game-container {
+  margin-top: 100px;
+  padding: 20px;
+  border: 3px solid cyan;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 10px cyan;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.choice {
+  font-size: 40px;
+  background: black;
+  color: white;
+  border: 2px solid cyan;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.choice:hover {
+  transform: scale(1.1);
+  border-color: magenta;
+}
+
+/* FIGHT MODAL */
+.fight-modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.9);
+  padding: 30px;
+  border: 3px solid cyan;
+  box-shadow: 0 0 20px magenta;
+  animation: neon-glow 1s infinite alternate;
+}
+
+.fight-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.vs {
+  margin: 0 20px;
+  color: magenta;
+}
+
+/* Animations */
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes neon-glow {
+  from {
+    box-shadow: 0 0 20px cyan;
+  }
+  to {
+    box-shadow: 0 0 30px magenta;
+  }
+}
